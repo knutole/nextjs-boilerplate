@@ -4,9 +4,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started → &nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+          Welcome to Brefront
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
@@ -41,73 +40,131 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="#services"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
+            Our Services{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
+            Explore how Brefront can help your business integrate AI seamlessly.
           </p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="#about"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
+            About Us{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Learn more about Brefront and our mission to empower businesses with
+            AI.
           </p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="#contact"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
+            Contact{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Get in touch with us to start your AI journey today.
           </p>
         </a>
       </div>
+
+      <section id="services" className="py-10">
+        <h2 className="text-3xl font-bold text-center mb-5">Our Services</h2>
+        <div className="grid lg:grid-cols-3 gap-8">
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">
+              AI Readiness Assessment
+            </h3>
+            <p>
+              Evaluate your current infrastructure, data, and skills to
+              understand your AI readiness.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">Custom AI Solutions</h3>
+            <p>
+              Develop and implement AI models tailored to your business needs,
+              including GenAI, RAG, and ML models.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">Data Management</h3>
+            <p>
+              Integrate and manage your data efficiently to support your AI
+              initiatives.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">
+              AI Platform Development
+            </h3>
+            <p>
+              Create scalable AI platforms and custom applications to meet your
+              business goals.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">Change Management</h3>
+            <p>
+              Ensure a smooth transition to AI with effective change management
+              strategies and training programs.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">
+              Support and Maintenance
+            </h3>
+            <p>
+              Receive ongoing support and maintenance for your AI systems to
+              ensure optimal performance.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="py-10">
+        <h2 className="text-3xl font-bold text-center mb-5">About Us</h2>
+        <p className="text-center max-w-4xl mx-auto">
+          Brefront is dedicated to helping Norwegian businesses harness the
+          power of AI. With our team of experts, we provide comprehensive AI
+          solutions that drive innovation and efficiency. Our mission is to
+          empower your organization to thrive in the digital age.
+        </p>
+      </section>
+
+      <section id="contact" className="py-10">
+        <h2 className="text-3xl font-bold text-center mb-5">Contact Us</h2>
+        <p className="text-center max-w-4xl mx-auto mb-5">
+          Ready to start your AI journey with Brefront? Get in touch with us
+          today and let's discuss how we can help your business succeed.
+        </p>
+        <div className="flex justify-center">
+          <a
+            href="mailto:contact@brefront.no"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition-colors"
+          >
+            Email Us
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
