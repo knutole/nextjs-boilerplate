@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Welcome to Brefront
+          Velkommen til Brefront
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
@@ -44,13 +44,14 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Our Services{" "}
+            Våre Tjenester{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore how Brefront can help your business integrate AI seamlessly.
+            Utforsk hvordan Brefront kan hjelpe din bedrift med å integrere AI
+            sømløst.
           </p>
         </a>
 
@@ -59,14 +60,13 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            About Us{" "}
+            Om Oss{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn more about Brefront and our mission to empower businesses with
-            AI.
+            Lær mer om Brefront og vår misjon om å styrke bedrifter med AI.
           </p>
         </a>
 
@@ -75,93 +75,95 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Contact{" "}
+            Kontakt{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Get in touch with us to start your AI journey today.
+            Ta kontakt med oss for å starte din AI-reise i dag.
           </p>
         </a>
       </div>
 
       <section id="services" className="py-10">
-        <h2 className="text-3xl font-bold text-center mb-5">Our Services</h2>
+        <h2 className="text-3xl font-bold text-center mb-5">Våre Tjenester</h2>
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold mb-3">
-              AI Readiness Assessment
+              AI Klarhetsvurdering
             </h3>
             <p>
-              Evaluate your current infrastructure, data, and skills to
-              understand your AI readiness.
-            </p>
-          </div>
-          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold mb-3">Custom AI Solutions</h3>
-            <p>
-              Develop and implement AI models tailored to your business needs,
-              including GenAI, RAG, and ML models.
-            </p>
-          </div>
-          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold mb-3">Data Management</h3>
-            <p>
-              Integrate and manage your data efficiently to support your AI
-              initiatives.
+              Vurder din nåværende infrastruktur, data og ferdigheter for å
+              forstå din AI-beredskap.
             </p>
           </div>
           <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold mb-3">
-              AI Platform Development
+              Tilpassede AI-løsninger
             </h3>
             <p>
-              Create scalable AI platforms and custom applications to meet your
-              business goals.
+              Utvikle og implementere AI-modeller skreddersydd til dine
+              forretningsbehov, inkludert GenAI, RAG og ML-modeller.
             </p>
           </div>
           <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-semibold mb-3">Change Management</h3>
+            <h3 className="text-2xl font-semibold mb-3">Databehandling</h3>
             <p>
-              Ensure a smooth transition to AI with effective change management
-              strategies and training programs.
+              Integrer og administrer dataene dine effektivt for å støtte dine
+              AI-initiativ.
             </p>
           </div>
           <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold mb-3">
-              Support and Maintenance
+              AI Plattformutvikling
             </h3>
             <p>
-              Receive ongoing support and maintenance for your AI systems to
-              ensure optimal performance.
+              Skap skalerbare AI-plattformer og tilpassede applikasjoner for å
+              nå dine forretningsmål.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">Endringsledelse</h3>
+            <p>
+              Sørg for en jevn overgang til AI med effektive
+              endringsledelsesstrategier og treningsprogrammer.
+            </p>
+          </div>
+          <div className="bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-semibold mb-3">
+              Støtte og Vedlikehold
+            </h3>
+            <p>
+              Motta kontinuerlig støtte og vedlikehold for dine AI-systemer for
+              å sikre optimal ytelse.
             </p>
           </div>
         </div>
       </section>
 
       <section id="about" className="py-10">
-        <h2 className="text-3xl font-bold text-center mb-5">About Us</h2>
+        <h2 className="text-3xl font-bold text-center mb-5">Om Oss</h2>
         <p className="text-center max-w-4xl mx-auto">
-          Brefront is dedicated to helping Norwegian businesses harness the
-          power of AI. With our team of experts, we provide comprehensive AI
-          solutions that drive innovation and efficiency. Our mission is to
-          empower your organization to thrive in the digital age.
+          Brefront er dedikert til å hjelpe norske bedrifter med å utnytte
+          kraften i AI. Med vårt team av eksperter, tilbyr vi omfattende
+          AI-løsninger som driver innovasjon og effektivitet. Vår misjon er å
+          styrke din organisasjon til å lykkes i den digitale tidsalderen.
         </p>
       </section>
 
       <section id="contact" className="py-10">
-        <h2 className="text-3xl font-bold text-center mb-5">Contact Us</h2>
+        <h2 className="text-3xl font-bold text-center mb-5">Kontakt Oss</h2>
         <p className="text-center max-w-4xl mx-auto mb-5">
-          Ready to start your AI journey with Brefront? Get in touch with us
-          today and let's discuss how we can help your business succeed.
+          Klar til å starte din AI-reise med Brefront? Ta kontakt med oss i dag
+          og la oss diskutere hvordan vi kan hjelpe din bedrift å lykkes.
         </p>
         <div className="flex justify-center">
           <a
             href="mailto:contact@brefront.no"
             className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition-colors"
           >
-            Email Us
+            Send oss en e-post
           </a>
         </div>
       </section>
